@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Stake Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #f0f0f0;
+            padding: 1rem;
+            text-align: right;
+        }
+        main {
+            display: flex;
+            flex: 1;
+        }
+        .stake-section {
+            flex: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .info-section {
+            flex: 1;
+            background-color: #e0e0e0;
+            padding: 1rem;
+        }
+        button {
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        .countdown {
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <button id="connect-wallet">Cüzdan Bağla</button>
+    </header>
+    <main>
+        <section class="stake-section">
+            <button id="stake-nft">NFT Stake Et</button>
+        </section>
+        <section class="info-section">
+            <h2>NFT Ödül Havuzu</h2>
+            <p id="reward-pool">100,000 TOKEN</p>
+            <h3>Geri Sayım</h3>
+            <div class="countdown" id="countdown">00:00:00</div>
+        </section>
+    </main>
+
+    <script>
+        // Burada JavaScript kodları eklenebilir
+        // Örneğin: Cüzdan bağlama, stake etme ve geri sayım işlevleri
+    </script>
+</body>
+</html>

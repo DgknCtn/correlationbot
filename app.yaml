@@ -1,0 +1,9 @@
+runtime: python310
+entrypoint: gunicorn -b :$PORT interface:app
+
+handlers:
+- url: /.*
+  script: auto
+
+env_variables:
+  # Buraya gerekli çevresel değişkenleri ekleyebilirsiniz.
